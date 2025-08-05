@@ -35,8 +35,6 @@ else:
 
 
 '''
-
-
 def merge_intervals_II(intervals):
   res = []
 
@@ -60,11 +58,4 @@ def merge_intervals_II(intervals):
 
 
 
-print(merge_intervals_II([
-
-
-
-
-
-
-[3, 8], [7, 10], [9, 15]]))
+print(merge_intervals_II([[3, 8], [7, 10], [9, 15]]))
